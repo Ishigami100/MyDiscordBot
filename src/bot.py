@@ -10,6 +10,7 @@ load_dotenv()
 # 自分のBotのアクセストークンに置き換えてください
 TOKEN = os.environ['TOKEN']
 intents = Intents.default()  # 一般的なイベントを有効化
+intents.message_content=True
 intents.messages = True # タイピングイベントを無効化
 # 接続に必要なオブジェクトを生成
 client = discord.Client(intents=intents)
