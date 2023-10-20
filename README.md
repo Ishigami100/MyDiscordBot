@@ -1,11 +1,9 @@
 # MyDiscordBot
-```
 
-```
 
 DiscordBotを自作します
 
-**目標**：Githubへcommitした際に、通知を飛ばせるようにする。
+**目標**：なんかいろいろ触る
 
 **現在の進捗**：Githubへの接続完了。Githubの方を調査。
 
